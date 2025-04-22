@@ -1,0 +1,83 @@
+/* contact.css */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradien warna */
+    color: #fff; /* Warna teks putih untuk kontras */
+    text-align: center; /* Rata tengah untuk teks */
+}
+
+/* Contact container styles */
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.1); /* Latar belakang transparan */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact left styles */
+.contact-left {
+    flex: 1;
+    text-align: left; /* Rata kiri untuk teks */
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffdd57; /* Warna kuning cerah untuk logo */
+    margin-bottom: 20px;
+}
+
+.contact-left h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-btn {
+    background-color: #ffdd57; /* Warna tombol kuning cerah */
+    color: #333; /* Warna teks tombol */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #ffd700; /* Warna tombol saat hover */
+}
+
+/* Contact right styles */
+.contact-right {
+    flex: 1;
+    text-align: left; /* Rata kiri untuk teks */
+}
+
+.contact-right p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Social icons styles */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #fff; /* Warna ikon sosial */
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffdd57; /* Warna ikon saat hover */
+}
